@@ -18,8 +18,8 @@ export const StyledTopo = styled.div`
         align-items: center;
       
         li {
-            margin-right:  0px;
-            padding-left: 50px;
+            margin-right:  10px;
+            padding-left: 10px;
             color: ${data.topoMenu.corTexto};
 
             img{
@@ -37,12 +37,14 @@ export const StyledTopo = styled.div`
         a{
             font-size: 10px;
         }
+       
       
     }
 
     &.visible {
         opacity: 1; /* Torna o topo visível quando a classe .visible é aplicada */
     }
+ 
    
 `;
 
