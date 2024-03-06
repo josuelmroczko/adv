@@ -6,32 +6,48 @@ export const StyledTopo = styled.div`
     position: fixed;
     z-index: 4;
     width: 100%;
-    justify-content: space-between; /* Coloca as duas uls em lados opostos */
-    
+    justify-content: space-between;
+    background-color: ${data.topoMenu.corFundoOpcoesTopo};
+    opacity: 0; /* Inicialmente torna o topo invisível */
+    transition: opacity 1s ease; /* Adiciona uma transição suave de 1 segundo para a propriedade de opacidade */
+
     ul {
         list-style: none;
         display: flex; 
         flex-wrap: wrap;  
-        align-items: center; /* Centraliza os itens verticalmente */
+        align-items: center;
       
         li {
-            margin-right: 20px; /* Reduzi a margem para se ajustar melhor em telas menores */
+            margin-right:  0px;
             padding-left: 50px;
-            color: ${data.topoMenu.corTexto};  /* Cor do texto */
+            color: ${data.topoMenu.corTexto};
+
+            img{
+                max-width: 15px;
+                width: 100%;
+            }
         }
     }
+   
 
     @media screen and (max-width: 768px) {
         ul {
-             align-items: flex-start; /* Alinha os itens à esquerda em telas menores */
-         }
-          
-          }
+            align-items: flex-start;
+        }
+        a{
+            font-size: 10px;
+        }
+      
+    }
+
+    &.visible {
+        opacity: 1; /* Torna o topo visível quando a classe .visible é aplicada */
+    }
+   
 `;
 
 export const StyledApresentacao = styled.div`
     text-align: center;
- 
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -39,7 +55,10 @@ export const StyledApresentacao = styled.div`
     height: 100vh;
     background: url(${props => props.backgroundImage}) no-repeat center center;
     background-size: cover;
-    position: relative; /* Adiciona posição relativa para o elemento pai */
+    position: relative;
+    opacity: 0; /* Inicialmente torna o topo invisível */
+    transition: opacity 1s ease;  /* Adiciona uma transição suave de 1 segundo para a propriedade de opacidade */
+
     &::after {
         content: "";
         position: absolute;
@@ -47,47 +66,46 @@ export const StyledApresentacao = styled.div`
         left: 0;
         width: 100%;
         height: 100%;
-        background-color: rgba(0, 0, 0, 0.4); /* Cor preta com 40% de transparência */
-        z-index: 1; /* Coloca a sobreposição sobre a imagem de fundo */
+        background-color: rgba(0, 0, 0, 0.4);
+        z-index: 1;
     }
-  
 
     h1 {
         font-size: 4rem;
-        margin-top: 0; /* Adiciona margem superior 0 para evitar o deslocamento */
-        z-index: 2; /* Coloca o texto sobre a sobreposição */
-        position: relative; /* Adiciona posição relativa para permitir z-index */
+        margin-top: 0;
+        z-index: 2;
+        position: relative;
         left: 10px;
         font-family: "Cormorant", serif;
-         font-weight: bolder;
-         color: ${data.topoMenu.corTexto}; /* Cor do texto */
-         transition: color 0.5s ease; 
-  
-       &:hover{
-        color: ${data.topoMenu.corBotaoHover}; /* Cor ao passar o mouse */
-       }
+        font-weight: bolder;
+        color: ${data.topoMenu.corTexto};
+        transition: color 1s ease;
     }
 
     p {
         font-size: 16px;
-        color: ${data.topoMenu.corTexto}; /* Cor do texto */
+        color: ${data.topoMenu.corTexto};
         margin-bottom: 20px;
-        z-index: 2; /* Coloca o texto sobre a sobreposição */
-        position: relative; /* Adiciona posição relativa para permitir z-index */
+        z-index: 2;
+        position: relative;
     }
 
     button {
         padding: 10px 20px;
-        background-color: ${data.topoMenu.corBotaoFundo}; /* Cor de fundo do botão */
-        color: ${data.topoMenu.corTexto}; /* Cor do texto */
+        background-color: ${data.topoMenu.corBotaoFundo};
+        color: ${data.topoMenu.corTexto};
         border: none;
         cursor: pointer;
         transition: background-color 0.3s;
-        z-index: 2; /* Coloca o botão sobre a sobreposição */
-        position: relative; /* Adiciona posição relativa para permitir z-index */
+        z-index: 2;
+        position: relative;
 
         &:hover {
-            background-color: ${data.topoMenu.corBotaoHover}; /* Cor de fundo do botão ao passar o mouse */
+            background-color: ${data.topoMenu.corBotaoHover};
         }
+    }
+
+    &.visible {
+        opacity: 1;
     }
 `;
