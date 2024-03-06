@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 import Topo from './componentes/TopoMenu/Topo';
+import SobreNos from './componentes/sobreSessao1/sobreNos';
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -17,7 +18,10 @@ function App() {
       {loading ? (
         <div className="loading-circle"></div>
       ) : (
-        <Topo />
+        <>
+          <Topo />
+          <SobreNos />
+        </>
       )}
     </div>
   );
