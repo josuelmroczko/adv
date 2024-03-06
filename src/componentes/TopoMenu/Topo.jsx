@@ -34,7 +34,7 @@ export default function Topo() {
                 </ul>
             
                 <ul>
-                    <li><a href={`mailto:${data.topoMenu.email}?subject=Assunto do Email&body=Corpo do Email`}>Enviar Email</a></li>
+                    <li><a href={`mailto:${data.topoMenu.email}?subject=Assunto do Email&body=Corpo do Email`}>Email</a></li>
                     <li><a href={`tel:${data.topoMenu.telefone}`}>Ligar: {data.topoMenu.telefone}</a></li>
                 </ul>
             </StyledTopo>

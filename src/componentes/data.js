@@ -17,7 +17,7 @@ export const data = {
         imagemLinkedin: imagemLinkedin ,
         imagemYoutube : imagemYoutube ,
          whatsapp: '615156156',
-        telefone: '011 993093681',
+        telefone:  '993093681',
         email: 'RodolfoReis@gmail.com',
         nome: 'Rodolfo Reis Advogados',
         texto: "Prestamos nossos serviços de forma totalmente transparente",
