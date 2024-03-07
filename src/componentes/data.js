@@ -6,6 +6,14 @@ import imagemInsta from '../public/imagem/instagram.png';
 import imagemLinkedin from '../public/imagem/linkedin.png';
 import imagemYoutube from '../public/imagem/youtube.png';
 
+import imagemTributario from '../public/imagem/tributario.png'
+import imagemtrabalhista from '../public/imagem/trabalhista.png'
+import imagemcivil from '../public/imagem/civil.png'
+import imagemempresarial from '../public/imagem/empresarial.png'
+import imagemequipe from '../public/imagem/equipe.png'
+import imagemfamilia from '../public/imagem/familia.png'
+
+
 import fotoadv from '../public/imagem/fotoAdvogada.jpg'
  
 export const data = {
@@ -37,6 +45,56 @@ export const data = {
         paragrafo2:'Além disso, optamos por uma estrutura enxuta de profissionais especializados que, pessoalmente, realizam todas as etapas do trabalho, tornando o atendimento de excelência.',
         paragrafo3:'Assim, com arrimo nestes elementos, podemos afirmar que nosso escritório encerra a melhor escolha para a defesa de seus interesses.',
 
-        
+        corFundo: " #deb887",
+    },
+
+    
+
+    servicos:{
+        servico:'SERVIÇOS',
+        titulo:'PRINCIPAIS ÁREAS DE ATUAÇÃO',
+        texto:'Conheça mais sobre as principais áreas de atuação do nosso escritório',
+
+
+        tributaria:{
+            imagemTributaria:imagemTributario,
+            tributaria:'Tributária',
+            texto:'Consultoria, planejamento para economia fiscal e recuperação de créditos. Contencioso administrativo e judicial. Elaboração de pareceres. Defesa de natureza penal.',
+
+        },
+        empresarial:{
+            imagemempresarial:imagemempresarial,
+            empresarial:'Empresarial',
+            texto:'Consultoria, compliance, constituição e alterações societárias comerciais e industriais, bem como de associações ou entidades sem fins lucrativos. Contratos. Negociações junto a credores e fornecedores. Falência e Recuperação Judicial. Contencioso administrativo e judicial.',
+            
+        },
+        administrativo:{
+            imagemadministrativo:imagemequipe,
+            administrativo:'Administrativo',
+            texto:'Improbidade. Ação Popular. Servidores. Políticas Públicas. Defesas administrativas e judiciais que envolvam Órgãos Públicos. Licitações e contratos administrativos. Desapropriações.',
+            
+        },
+ 
+
+
+        civil:{
+            imagemTributaria:imagemcivil,
+            civil:'Civil',
+            texto:'Consultoria, planejamento para economia fiscal e recuperação de créditos. Contencioso administrativo e judicial. Elaboração de pareceres. Defesa de natureza penal.',
+
+        },
+        famíliaESucessões:{
+            imagemTributaria:imagemfamilia,
+            famíliaESucessões:'Família e Sucessões',
+            texto:'Inventário. Planejamento sucessório. Testamentos. Divórcio. Guarda de Filhos. Alimentos.',
+            
+        },
+        trabalhista:{
+            imagemtrabalhista:imagemtrabalhista,
+            trabalhista:'Trabalhista',
+            texto:'Consultoria, planejamento de condutas. Contencioso judicial em reclamações e defesas administrativas. Penal – Financeiro. Eleitoral.',
+            
+        },
+      
     },
 };

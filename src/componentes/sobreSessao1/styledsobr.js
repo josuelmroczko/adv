@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { data } from "../data";
 
 export const StyledSobretexto = styled.div`
  
@@ -30,8 +31,8 @@ export const StyledSobretexto = styled.div`
 export const StyledSobre = styled.div`
   position: relative;
   display: flex;
-  height: 100%;
-  background-color: burlywood;
+  height: 90vh;
+  background-color:  ${data.sobreNos.corFundo};
   justify-content: center; /* Alterado para centralizar */
   align-items: center; /* Novo - centralizar verticalmente */
 
@@ -47,7 +48,8 @@ export const StyledSobre = styled.div`
     position: relative;
     max-width: 500px;
     width: 100%;
-    height: auto;
+     max-height: 500px;
+   
     object-fit: cover;
    top: 10px;
  
