@@ -17,8 +17,8 @@ export const StyledSobretexto = styled.div`
   }
 
   @media (max-width: 1000px) {
-    width: 90%;
-    padding: 50px;
+    width: 100%;
+    padding: 10px;
 
     span {
         position: relative;
