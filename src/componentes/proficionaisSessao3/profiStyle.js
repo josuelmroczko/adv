@@ -130,8 +130,9 @@ export const ModalStyled = styled.div`
       
        width: 100%; /* Altera para largura total em telas menores */
        max-width: none;
-       height: 200px;
-        margin-bottom: 10px; /* Adiciona um espaçamento entre a imagem e o texto */
+       
+       height: 100px;
+        margin-bottom: 1px; /* Adiciona um espaçamento entre a imagem e o texto */
      }
 
      .textosModal {

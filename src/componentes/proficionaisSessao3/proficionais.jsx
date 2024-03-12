@@ -66,7 +66,7 @@ export default function Proficionais() {
       justifyContent: 'center',
       alignItems: 'center',
       top: '10%',
-      width: '80%', // Ajuste conforme necessário
+      width: '80%',  
       height: '100%',
       left: '10%',
       textAlign: "center",
