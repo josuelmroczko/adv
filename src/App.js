@@ -7,6 +7,9 @@ import Navbar from './componentes/barraMenu/barra';
 import { StyleProficionais } from './componentes/proficionaisSessao3/profiStyle';
 import Proficionais from './componentes/proficionaisSessao3/proficionais';
 import FaleConosco from './componentes/faleConoscoSessao4/faleConosco';
+import ContatoConteudo from './componentes/faleConoscoSessao4/faleConosco';
+import Local from './componentes/localizacao/local';
+import Footer from './componentes/footer/footer';
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -29,7 +32,9 @@ function App() {
           <SobreNos />
           <Servicos/>
            <Proficionais/>
-           <FaleConosco/>
+           <ContatoConteudo/>
+           <Local/>
+           <Footer/>
         </>
       )}
     </div>

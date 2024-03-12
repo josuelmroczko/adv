@@ -167,4 +167,44 @@ export const data = {
         },
     },
 
+
+
+    contatos:{
+        faleConosco:'FALE CONOSCO',
+        titulo:'Estamos aqui por você!',
+        texto:'Encontre-nos também nas redes sociais:',
+
+
+    },
+
+    local:{
+        local:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d467692.39573094057!2d-46.92496674108885!3d-23.681434561869324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce448183a461d1%3A0x9ba94b08ff335bae!2zU8OjbyBQYXVsbywgU1A!5e0!3m2!1spt-BR!2sbr!4v1710264762607!5m2!1spt-BR!2sbr'
+       
+    },
+
+
+    fotter:{
+    titulo1:'Rodolfo Reis Advogados',
+    texto:'Escritório de Advocacia que atua nas áreas Tributária, Empresarial, Trabalhista, Civil, Família e Sucessões, numa estrutura enxuta, com profissionais especializados, que lidam pessoalmente nas lides.',
+        
+    titulo2:'VISITE-NOS',
+    semana:'✔ Seg-Sex',
+    endereco:'🗺️ Rua Bela Vista, 587 - Jundiaí/SP',
+    telefone:'☎ (11) 4521-9310',
+    whatsapp:'📱 (11) 99912-0803',
+    email: '📧 alexandre@barroscastro.adv.br',
+
+    areas: 'ÁREAS DE ATUAÇÃO',
+    texto1: 'Civil',
+    texto2: 'Família e Sucessões',
+    texto3: 'Administrativo',
+    texto4: 'Tributária',
+    texto5: 'Empresarial',
+    texto6: 'Trabalhista',
+    texto7: 'Penal – Financeiro',
+    texto8: 'Eleitoral',
+
+
+}
+
 };
