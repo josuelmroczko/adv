@@ -67,7 +67,7 @@ export default function Proficionais() {
       alignItems: 'center',
       top: '10%',
       width: '80%', // Ajuste conforme necessário
-      height: '80%',
+      height: '100%',
       left: '10%',
       textAlign: "center",
     }
