@@ -20,11 +20,11 @@ export default function Footer(){
             <Footersection>
                 <h2>{data.fotter.titulo2}</h2>
                 <ul>
-                    <li><a href=""> {data.fotter.semana}</a></li>
-                    <li><a href="">{data.fotter.endereco}</a></li>
-                    <li><a href="">{data.fotter.telefone}</a></li>
-                    <li><a href="">{data.fotter.whatsapp}</a></li>
-                    <li><a href="">{data.fotter.email}</a></li>
+                    <li><a href="#"> {data.fotter.semana}</a></li>
+                    <li><a href="#">{data.fotter.endereco}</a></li>
+                    <li><a href="#">{data.fotter.telefone}</a></li>
+                    <li><a href="#">{data.fotter.whatsapp}</a></li>
+                    <li><a href="#">{data.fotter.email}</a></li>
                 </ul>
             </Footersection>
 
@@ -41,7 +41,7 @@ export default function Footer(){
                 </ul>
             </Footersection>
         </StyleFooter>
-        <span>© Copyright Barros Castro 2024</span>
+        <span>{data.fotter.Copyrigh}</span>
 
 
 

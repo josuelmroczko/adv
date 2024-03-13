@@ -53,10 +53,10 @@ export const data = {
     sobreNos:{
         fotoAdv: fotoadv,
         sobrenos :'- SOBRE NÓS',
-        titulo :'Seja bem vindo à Rodolfo Reis Advogados Prestamos nossos serviços de forma totalmente transparente Conheça nossos serviços ',
-        paragrafo1:'Nosso escritório permite a união de dois importantes requisitos para o sucesso das causas patrocinadas: ampla atividade acadêmica e larga experiência dos profissionais. A Advocacia se perfaz em labor que exige ininterruptos estudos em virtude do dinamismo do ordenamento jurídico e de mudanças sociais que, aliados à prática, fazem com que as estratégias idealizadas pela equipe de advogados gerem reais probabilidades de sucesso.',
-        paragrafo2:'Além disso, optamos por uma estrutura enxuta de profissionais especializados que, pessoalmente, realizam todas as etapas do trabalho, tornando o atendimento de excelência.',
-        paragrafo3:'Assim, com arrimo nestes elementos, podemos afirmar que nosso escritório encerra a melhor escolha para a defesa de seus interesses.',
+        titulo :'Seja bem vindo à Advocacia Legal Prestamos nossos serviços de forma totalmente transparente Conheça nossos serviços ',
+        paragrafo1:'Nossa equipe combina conhecimento acadêmico extensivo e vasta experiência profissional. A prática da advocacia requer estudos contínuos devido à evolução do cenário jurídico e às mudanças sociais, o que, aliado à experiência prática, permite que nossos advogados desenvolvam estratégias com reais chances de sucesso.',
+        paragrafo2:'Optamos por uma estrutura enxuta de profissionais especializados que lidam pessoalmente com todos os aspectos do trabalho, garantindo um atendimento de excelência.',
+        paragrafo3:'Portanto, com base nesses elementos, afirmamos que nossa advocacia é a melhor escolha para a defesa de seus interesses.',
 
         corFundo: " #deb887",
     },
@@ -66,25 +66,25 @@ export const data = {
     servicos:{
         servico:'SERVIÇOS',
         titulo:'PRINCIPAIS ÁREAS DE ATUAÇÃO',
-        texto:'Conheça mais sobre as principais áreas de atuação do nosso escritório',
+        texto:'Conheça mais sobre as principais áreas de atuação da nossa advocacia',
 
 
         tributaria:{
             imagemTributaria:imagemTributario,
             tributaria:'Tributária',
-            texto:'Consultoria, planejamento para economia fiscal e recuperação de créditos. Contencioso administrativo e judicial. Elaboração de pareceres. Defesa de natureza penal.',
+            texto:'Consultoria, planejamento tributário, recuperação de créditos, contencioso administrativo e judicial, elaboração de pareceres e defesa em processos penais.',
 
         },
         empresarial:{
             imagemempresarial:imagemempresarial,
             empresarial:'Empresarial',
-            texto:'Consultoria, compliance, constituição e alterações societárias comerciais e industriais, bem como de associações ou entidades sem fins lucrativos. Contratos. Negociações junto a credores e fornecedores. Falência e Recuperação Judicial. Contencioso administrativo e judicial.',
+            texto:'Consultoria empresarial, compliance, constituição e alterações societárias, contratos, negociações, falência, recuperação judicial e contencioso administrativo e judicial.',
             
         },
         administrativo:{
             imagemadministrativo:imagemequipe,
             administrativo:'Administrativo',
-            texto:'Improbidade. Ação Popular. Servidores. Políticas Públicas. Defesas administrativas e judiciais que envolvam Órgãos Públicos. Licitações e contratos administrativos. Desapropriações.',
+            texto:'Defesa em questões de improbidade, ações populares, servidores públicos, políticas públicas, licitações, contratos administrativos e desapropriações.',
             
         },
  
@@ -93,19 +93,19 @@ export const data = {
         civil:{
             imagemTributaria:imagemcivil,
             civil:'Civil',
-            texto:'Consultoria, planejamento para economia fiscal e recuperação de créditos. Contencioso administrativo e judicial. Elaboração de pareceres. Defesa de natureza penal.',
+            texto:'Consultoria em questões civis, contencioso administrativo e judicial, elaboração de pareceres e defesa em processos penais.',
 
         },
         famíliaESucessões:{
             imagemTributaria:imagemfamilia,
             famíliaESucessões:'Família e Sucessões',
-            texto:'Inventário. Planejamento sucessório. Testamentos. Divórcio. Guarda de Filhos. Alimentos.',
+            texto:'Assistência em inventário, planejamento sucessório, testamentos, divórcios, guarda de filhos e questões alimentares.',
             
         },
         trabalhista:{
             imagemtrabalhista:imagemtrabalhista,
             trabalhista:'Trabalhista',
-            texto:'Consultoria, planejamento de condutas. Contencioso judicial em reclamações e defesas administrativas. Penal – Financeiro. Eleitoral.',
+            texto:'Consultoria trabalhista, contencioso judicial, defesas administrativas, questões penais e financeiras trabalhistas, além de questões eleitorais.',
             
         },
       
@@ -114,14 +114,14 @@ export const data = {
     proficionais:{
         texto1:'TIME DE ESPECIALISTAS',
         titulo:'Nossos profissionais',
-        texto:'Equipe com uma estrutura enxuta, mas com profissionais especializados, que lidam pessoalmente nas lides.',
+        texto:'Equipe com uma estrutura enxuta, mas com profissionais especializados, que lidam pessoalmente nas causas.',
 
    
         prodicional1:{
             foto:adv1foto,
-            nome:'Dr. Anna teixeira dante',
-            especialidade:'Advogada e Consultor Empresarial',
-            texto:'(Formação: Direito). Técnico em Administração. Cursos de Inventário e Partilha – Judicial e Extrajudicial; Planejamento Sucessório por Testamento ministrados pela Escola Superior de Advocacia (ESA/SP); Prática Forense em Direito Eleitoral 2020 ministrado pelo Complexo de Ensino Renato Saraiva/PE. Exerceu função no antigo Ministério do Trabalho e Emprego (MTE) e na Procuradoria Fiscal do Município de Jundiaí (Unidade de Gestão de Negócios Jurídicos e Cidadania).',
+            nome:'Dr. Ana Teixeira Dante',
+            especialidade:'Advogada e Consultora Empresarial',
+            texto:'Formada em Direito, técnica em administração, com cursos em inventário, partilha, planejamento sucessório e prática forense em direito eleitoral. Experiência no Ministério do Trabalho e Emprego e na Procuradoria Fiscal do Município de Jundiaí.',
             telefone:'9999999',
             email:'emailemailemaio@email.com',
             facebook:'httmp',
@@ -131,9 +131,9 @@ export const data = {
         },
         prodicional2:{
             foto:adv2foto,
-            nome:'Dr.Guilhermina ramires',
-            especialidade:'Advogado',
-            texto:'(Formações: Direito e Letras). Atualmente exerce o cargo de Procuradora Municipal Efetiva e Membro do Conselho de Contribuintes de Osasco/SP, Procuradora Municipal Efetiva de Jundiaí (2009-2010). Advogada da Companhia Paulista de Trens Metropolitanos – CPTM (2007-2009); Especialista em Direito Administrativo (PUC/SP) e em Direito Constitucional (Escola Paulista de Direito – EPD) e Prática Forense em Direito Eleitoral (Complexo Educacional Renato Saraiva/PE). Presidente da Comissão do Advogado Público da 56ª Subseção da OAB/SP (Gestão 2019/2021)',
+            nome:'Dr. Guilhermina Ramires',
+            especialidade:'Advogada',
+            texto:'Formada em Direito e Letras, com especialização em direito administrativo e constitucional. Experiência como Procuradora Municipal e na Companhia Paulista de Trens Metropolitanos. Presidente da Comissão do Advogado Público da OAB/SP.',
             telefone:'9999999',
             email:'emailemailemaio@email.com',
             facebook:'httmp',
@@ -143,9 +143,9 @@ export const data = {
         },
         prodicional3:{
             foto: adv3foto,
-            nome:'Dr.joão dark santos',
+            nome:'Dr. João Dark Santos',
             especialidade:'Advogado ',
-            texto:'(Formação: Direito). Técnico em Comércio de Bens e Serviços. Especialista em Direito Processual Civil (PUC/RS), em Direito e Processo do Trabalho (Complexo Educacional Renato Saraiva/PE) e em Perícia Contábil (Trevisan Escola de Negócios/SP). Prática Forense em Direito Processual Civil (Complexo Educacional Renato Saraiva/PE), em Direito Eleitoral (Complexo Educacional Renato Saraiva/PE) e Direito Imobiliário (SR Freitas Escola de Direito Imobiliário/SP). Aprimoramento Técnico em Inventário e Partilha Judicial e Extrajudicial e Planejamento Sucessório por Testamento (Escola Superior de Advocacia/SP – ESA), Cálculos Trabalhistas (LFG), Rotinas de Departamento Pessoal (LTR), Recursos Humanos e Contratação de Trabalhadores (FGV).',
+            texto:'Formado em Direito, técnico em comércio de bens e serviços, com especialização em direito processual civil, direito do trabalho e perícia contábil. Experiência em diversas áreas do direito.',
             telefone:'9999999',
             email:'emailemailemaio@email.com',
             facebook:'httmp',
@@ -155,9 +155,9 @@ export const data = {
         },
         prodicional4:{
             foto: adv4foto,
-            nome:'Dr. Carlos Daqmasco ',
+            nome:'Dr. Carlos Daqmasco',
             especialidade:'Advogado',
-            texto:'(Formação: Direito). Técnico em Administração. Cursos de Inventário e Partilha – Judicial e Extrajudicial; Planejamento Sucessório por Testamento ministrados pela Escola Superior de Advocacia (ESA/SP); Prática Forense em Direito Eleitoral 2020 ministrado pelo Complexo de Ensino Renato Saraiva/PE. Exerceu função no antigo Ministério do Trabalho e Emprego (MTE) e na Procuradoria Fiscal do Município de Jundiaí (Unidade de Gestão de Negócios Jurídicos e Cidadania).',
+            texto:'Formado em Direito, técnico em administração, com cursos em inventário, partilha, planejamento sucessório e prática forense em direito eleitoral. Experiência no Ministério do Trabalho e Emprego e na Procuradoria Fiscal do Município de Jundiaí.',
             telefone:'9999999',
             email:'emailemailemaio@email.com',
             facebook:'httmp',
@@ -184,8 +184,8 @@ export const data = {
 
 
     fotter:{
-    titulo1:'Rodolfo Reis Advogados',
-    texto:'Escritório de Advocacia que atua nas áreas Tributária, Empresarial, Trabalhista, Civil, Família e Sucessões, numa estrutura enxuta, com profissionais especializados, que lidam pessoalmente nas lides.',
+    titulo1:'Advocacia Legal',
+    texto:'Escritório de Advocacia que atua nas áreas Tributária, Empresarial, Trabalhista, Civil, Família e Sucessões, numa estrutura enxuta, com profissionais especializados, que lidam pessoalmente nas causas.',
         
     titulo2:'VISITE-NOS',
     semana:'✔ Seg-Sex',
@@ -204,7 +204,7 @@ export const data = {
     texto7: 'Penal – Financeiro',
     texto8: 'Eleitoral',
 
-
+    Copyrigh:'© Copyright Advocacia Legal'
 }
 
 };
