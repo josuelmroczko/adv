@@ -3,16 +3,16 @@ import { Footersection, StyleFooter } from "./styledFooter";
 
 export default function Footer(){
     return(
-        <StyleFooter>
+       <> <StyleFooter>
             <Footersection>
                 <h1>{data.fotter.titulo1}</h1>
                 <p>{data.fotter.texto}</p>
                 <div className="redesSociaisFooter">
                     <ul>
-                        <li><img src="" alt="img" /></li>
-                        <li><img src="" alt="img" /></li>
-                        <li><img src="" alt="img" /></li>
-                        <li><img src="" alt="img" /></li>
+                        <li><img src={data.topoMenu.imagemInsta} alt="img" /></li>
+                        <li><img src={data.topoMenu.imagemLinkedin} alt="img" /></li>
+                        <li><img src={data.topoMenu.imagemYoutube} alt="img" /></li>
+                        <li><img src={data.topoMenu.imagemfacebook} alt="img" /></li>
                     </ul>
                 </div>
             </Footersection>
@@ -41,5 +41,10 @@ export default function Footer(){
                 </ul>
             </Footersection>
         </StyleFooter>
+        <span>© Copyright Barros Castro 2024</span>
+
+
+
+        </>
     )
 }
