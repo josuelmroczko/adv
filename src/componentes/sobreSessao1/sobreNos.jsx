@@ -9,6 +9,7 @@ import { StyledSobre, StyledSobretexto } from "./styledsobr";
 export default function SobreNos(){
     return(
         <>  
+        <a id="sobre"></a>
         <StyledSobre>
         <StyledSobretexto>
             <span>{data.sobreNos.sobrenos}</span>

@@ -23,16 +23,20 @@ export default function Topo() {
         };
     }, []);
 
+    const handleScrollToServicos = () => {
+        const servicosElement = document.getElementById('servicos');
+        servicosElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    };
+
     return (
         <>
             <StyledTopo className={topoVisible ? 'visible' : ''}>
                 <ul>
-                    <li><img src={data.topoMenu.imagemInsta} alt="logoinstagran" /></li>
-                    <li><img src={data.topoMenu.imagemLinkedin} alt="logoLinkedin" /></li>
-                    <li><img src={data.topoMenu.imagemYoutube} alt="logoYoutube" /></li>
-                    <li><img src={data.topoMenu.imagemfacebook} alt="logoFacebook" /></li>
+                    <li><a href={data.topoMenu.linkInstagran} target="_blank"><img src={data.topoMenu.imagemInsta} alt="logoinstagran" /></a></li>
+                    <li><a href={data.topoMenu.linkLinkedin} target="_blank"><img src={data.topoMenu.imagemLinkedin} alt="logoLinkedin" /></a></li>
+                    <li><a href={data.topoMenu.linkYoutube} target="_blank"><img src={data.topoMenu.imagemYoutube} alt="logoYoutube" /></a></li>
+                    <li><a href={data.topoMenu.linkfacebook} target="_blank"><img src={data.topoMenu.imagemfacebook} alt="logoFacebook" /></a></li>
                 </ul>
-            
                 <ul>
                     <li><a href={`mailto:${data.topoMenu.email}?subject=Assunto do Email&body=Corpo do Email`}>Email</a></li>
                     <li><a href={`tel:${data.topoMenu.telefone}`}>Ligar: {data.topoMenu.telefone}</a></li>
@@ -41,7 +45,7 @@ export default function Topo() {
             <StyledApresentacao className={apresentacaoVisible ? 'visible' : ''} backgroundImage={data.topoMenu.imagemFundo}>
                 <h1>{data.topoMenu.nome}</h1>
                 <p>{data.topoMenu.texto}</p>
-                <button>{data.topoMenu.botao}</button>
+                <button onClick={handleScrollToServicos}>{data.topoMenu.botao}</button>
             </StyledApresentacao>
         </>
     );

@@ -45,6 +45,7 @@ export default function ContatoConteudo() {
   
   return (
     <StyledDiv>
+      <a id='contato'></a>
       <div className="contatos-container">
         <span  >{data.contatos.faleConosco}</span>
         <h1>{data.contatos.titulo}</h1>
