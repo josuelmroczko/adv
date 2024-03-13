@@ -28,7 +28,7 @@ export default function ContatoConteudo() {
       email: email
     }
 
-    emailjs.send("service_6n3k3e6","template_erejt8l",templateParams,"eb6YouwGZ_PxGm0rD")
+    emailjs.send("service_6n3k3e6","template_erejt8l",templateParams,"eb6YouwGZ_PxGm0rD")//Alterar para o email do cliente
     .then((response) => {
         console.log("Email enviado:", response.status, response.text);
         alert("Email enviado com sucesso!");
@@ -53,10 +53,10 @@ export default function ContatoConteudo() {
         <div className='redesSociais'>
 
           <ul>
-            <li><img src={data.topoMenu.imagemInsta} alt="" /></li>
-            <li><img src={data.topoMenu.imagemLinkedin} alt="" /></li>
-            <li><img src={data.topoMenu.imagemYoutube} alt="" /></li>
-            <li><img src={data.topoMenu.imagemfacebook} alt="" /></li>
+            <li><a href={data.topoMenu.linkInstagran} target="_blank" ><img src={data.topoMenu.imagemInsta} alt="imagemInsta" />        </a></li>
+            <li><a href={data.topoMenu.linkLinkedin} target="_blank"  ><img src={data.topoMenu.imagemLinkedin} alt="imagemLinkedin" /> </a></li>
+            <li><a href={data.topoMenu.linkYoutube} target="_blank"  ><img src={data.topoMenu.imagemYoutube} alt="imagemYoutube" />   </a></li>
+            <li><a href={data.topoMenu.linkfacebook} target="_blank"  ><img src={data.topoMenu.imagemfacebook} alt="imagemfacebook" /> </a></li>
           </ul>
         </div>
       </div>

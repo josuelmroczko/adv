@@ -106,10 +106,7 @@ export const ModalStyled = styled.div`
   }
  
     .imagensRedesSociais{
-      position: absolute;
-       top: 65%;
-      display: flex;
-      width: 100px;
+ 
     
  
       
@@ -125,7 +122,8 @@ export const ModalStyled = styled.div`
     }
 
    p {
-    font-size: 15px;
+    padding-top: 20px;
+    font-size: 20px;
     margin-left: 10px; /* Adiciona um espaçamento à esquerda dos textos */
    }
 
@@ -145,7 +143,7 @@ export const ModalStyled = styled.div`
        width: 100%; /* Altera para largura total em telas menores */
        max-width: none;
        
-       height: 100px;
+       height: 150px;
         margin-bottom: 1px; /* Adiciona um espaçamento entre a imagem e o texto */
      }
 
