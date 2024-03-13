@@ -9,6 +9,7 @@ export const StyleProficionais = styled.div`
     flex-wrap: wrap;
     justify-content: space-around;
   }
+
   li {
     width: 300px;
     height: 300px;
@@ -53,6 +54,7 @@ export const StyleProficionais = styled.div`
     color: antiquewhite;
     background-color: rgba(0, 0, 0, 0.4);
   }
+  
 
   @media screen and (max-width: 768px) {
     span {
@@ -78,7 +80,7 @@ export const StyleProficionais = styled.div`
   display: none;
 }
  
-
+ 
 `;
 
 export const ModalStyled = styled.div`
@@ -95,8 +97,8 @@ export const ModalStyled = styled.div`
   }
  
     .imagensRedesSociais{
-      position: relative;
-       top: 20%;
+      position: absolute;
+       top: 65%;
       display: flex;
       width: 100px;
     
@@ -143,5 +145,14 @@ export const ModalStyled = styled.div`
        height: 100%;
        margin-left: 0;
      }
+   }
+   .modal-close{
+    position: relative;
+    color: maroon;
+    top: -50px;
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    background-color: transparent;
    }
 `;

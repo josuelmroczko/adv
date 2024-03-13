@@ -66,9 +66,9 @@ export default function Proficionais() {
       justifyContent: 'center',
       alignItems: 'center',
       top: '10%',
-      width: '80%',  
+      width: '70%',  
       height: '100%',
-      left: '10%',
+      left: '15%',
       textAlign: "center",
     }
   }}>
@@ -88,7 +88,7 @@ export default function Proficionais() {
      
    
       </div>
-      <button className="modal-close" onClick={closeModal}> </button>
+      <button className="modal-close" onClick={closeModal}> X</button>
       
     </ModalStyled>
     
