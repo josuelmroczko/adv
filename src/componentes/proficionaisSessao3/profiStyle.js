@@ -95,8 +95,11 @@ export const ModalStyled = styled.div`
   }
  
     .imagensRedesSociais{
+      position: relative;
+       top: 20%;
       display: flex;
       width: 100px;
+    
  
       
       li{

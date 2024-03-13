@@ -79,17 +79,19 @@ export default function Proficionais() {
         <h2>{selectedProfissional.nome}</h2>
         <p>{selectedProfissional.especialidade}</p>
         <p>{selectedProfissional.texto}</p> {/* Adicionando o texto do profissional */}
-        
-         <ul className="imagensRedesSociais">
+        <ul className="imagensRedesSociais">
           <li><img src={data.topoMenu.imagemInsta} alt="" /></li>
           <li><img src={data.topoMenu.imagemLinkedin} alt="" /></li>
           <li><img src={data.topoMenu.imagemYoutube} alt="" /></li>
           <li><img src={data.topoMenu.imagemfacebook} alt="" /></li>
         </ul>
+     
    
       </div>
       <button className="modal-close" onClick={closeModal}> </button>
+      
     </ModalStyled>
+    
   </Modal>
 )}
 
