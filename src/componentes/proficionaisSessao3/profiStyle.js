@@ -4,6 +4,7 @@ import { data } from "../data";
 export const StyleProficionais = styled.div`
   position: relative;
   text-align: center;
+  
   ul {
     display: flex;
     flex-wrap: wrap;
@@ -54,7 +55,15 @@ export const StyleProficionais = styled.div`
     color: antiquewhite;
     background-color: rgba(0, 0, 0, 0.4);
   }
-  
+   .modal-close{
+    position: relative;
+    color: maroon;
+    top: -50px;
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    background-color: transparent;
+   }
 
   @media screen and (max-width: 768px) {
     span {
@@ -146,13 +155,17 @@ export const ModalStyled = styled.div`
        margin-left: 0;
      }
    }
-   .modal-close{
-    position: relative;
-    color: maroon;
-    top: -50px;
-    height: 50px;
-    width: 50px;
-    font-size: 20px;
-    background-color: transparent;
-   }
+.modal-close {
+  position: absolute; /* Adiciona o botão de fechar como posição fixa */
+  color: red;
+  font-weight: bolder;
+  top: 20px; /* Define a distância do topo da janela */
+  right: 20px; /* Define a distância da direita da janela */
+  height: 50px;
+  width: 50px;
+  font-size: 20px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
 `;
