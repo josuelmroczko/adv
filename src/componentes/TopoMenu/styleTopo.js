@@ -51,6 +51,7 @@ export const StyledTopo = styled.div`
 export const StyledApresentacao = styled.div`
     text-align: center;
     display: flex;
+   padding: 5px;
     flex-direction: column;
     justify-content: center;
     align-items: center;

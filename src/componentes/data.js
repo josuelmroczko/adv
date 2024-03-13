@@ -189,10 +189,10 @@ export const data = {
         
     titulo2:'VISITE-NOS',
     semana:'✔ Seg-Sex',
-    endereco:'🗺️ Rua Bela Vista, 587 - Jundiaí/SP',
-    telefone:'☎ (11) 4521-9310',
-    whatsapp:'📱 (11) 99912-0803',
-    email: '📧 alexandre@barroscastro.adv.br',
+    endereco:'🗺️ Rua rua qalquer, 111 - Sao paulo/SP',
+    telefone:'☎ (11) 44444-44444',
+    whatsapp:'📱 (11) 99992-9999',
+    email: '📧 emailemailemaio@email.com',
 
     areas: 'ÁREAS DE ATUAÇÃO',
     texto1: 'Civil',
