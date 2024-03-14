@@ -18,6 +18,7 @@ export const StyledServicos = styled.section`
       padding: 2vw; /* Utilizando unidade vw para espaçamento entre o texto e os elementos */
       font-size: 4vw; /* Utilizando unidade vw para ajustar o tamanho da fonte de acordo com a largura da tela */
     }
+   
   }
 
   ul {
@@ -43,7 +44,9 @@ export const StyledServicos = styled.section`
       font-size: 3vw; /* Utilizando unidade vw para ajustar o tamanho da fonte de acordo com a largura da tela */
     }
   }
-
+p{
+  font-size: 18px;
+}
   @media screen and (max-width: 768px) {
     li {
       width: 50%;

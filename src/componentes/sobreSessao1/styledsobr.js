@@ -41,7 +41,7 @@ export const StyledSobre = styled.div`
     flex-direction: column;
     width: 90%;
     padding-top: 20px;
-    font-size: 15px;
+    font-size: 18px;
   }
 
   img {

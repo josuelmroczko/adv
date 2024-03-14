@@ -86,7 +86,8 @@ export const StyledApresentacao = styled.div`
     }
 
     p {
-        font-size: 16px;
+        font-size: 18px;
+        font-weight: 100;
         color: ${data.topoMenu.corTexto};
         margin-bottom: 20px;
         z-index: 2;
