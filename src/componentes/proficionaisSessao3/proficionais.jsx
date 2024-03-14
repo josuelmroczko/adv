@@ -20,41 +20,41 @@ export default function Proficionais() {
   return (
     <StyleProficionais>
       <div className="time">
-        <span>{data.proficionais.texto1}</span>
-        <h2>{data.proficionais.titulo}</h2>
-        <p>{data.proficionais.texto}</p>
+        <span>{data.profissionais.texto1}</span>
+        <h2>{data.profissionais.titulo}</h2>
+        <p>{data.profissionais.texto}</p>
       </div>
       <ul>
-        <li onClick={() => openModal(data.proficionais.prodicional1)}>
-          <img src={data.proficionais.prodicional1.foto} alt="" />
+        <li onClick={() => openModal(data.profissionais. profissional1)}>
+          <img src={data.profissionais. profissional1.foto} alt="" />
           <div className="timeDescricao">
-            <h3>{data.proficionais.prodicional1.nome}</h3>
-            <p>{data.proficionais.prodicional1.especialidade}</p>
-            <span className="textoProficional">{data.proficionais.prodicional1.texto}</span>
+            <h3>{data.profissionais. profissional1.nome}</h3>
+            <p>{data.profissionais. profissional1.especialidade}</p>
+            <span className="textoProficional">{data.profissionais. profissional1.texto}</span>
           </div>
         </li>
-        <li onClick={() => openModal(data.proficionais.prodicional2)}>
-          <img src={data.proficionais.prodicional2.foto} alt="" />
+        <li onClick={() => openModal(data.profissionais.profissional2)}>
+          <img src={data.profissionais.profissional2.foto} alt="" />
           <div className="timeDescricao">
-            <h3>{data.proficionais.prodicional2.nome}</h3>
-            <p>{data.proficionais.prodicional2.especialidade}</p>
-            <span className="textoProficional">{data.proficionais.prodicional2.texto}</span>
+            <h3>{data.profissionais.profissional2.nome}</h3>
+            <p>{data.profissionais.profissional2.especialidade}</p>
+            <span className="textoProficional">{data.profissionais.profissional2.texto}</span>
           </div>
         </li>
-        <li onClick={() => openModal(data.proficionais.prodicional3)}>
-          <img src={data.proficionais.prodicional3.foto} alt="" />
+        <li onClick={() => openModal(data.profissionais.profissional3)}>
+          <img src={data.profissionais.profissional3.foto} alt="" />
           <div className="timeDescricao">
-            <h3>{data.proficionais.prodicional3.nome}</h3>
-            <p>{data.proficionais.prodicional3.especialidade}</p>
-            <span className="textoProficional">{data.proficionais.prodicional3.texto}</span>
+            <h3>{data.profissionais.profissional3.nome}</h3>
+            <p>{data.profissionais.profissional3.especialidade}</p>
+            <span className="textoProficional">{data.profissionais.profissional3.texto}</span>
           </div>
         </li>
-        <li onClick={() => openModal(data.proficionais.prodicional4)}>
-          <img src={data.proficionais.prodicional4.foto} alt="" />
+        <li onClick={() => openModal(data.profissionais.profissional4)}>
+          <img src={data.profissionais.profissional4.foto} alt="" />
           <div className="timeDescricao">
-            <h3>{data.proficionais.prodicional4.nome}</h3>
-            <p>{data.proficionais.prodicional4.especialidade}</p>
-            <span className="textoProficional">{data.proficionais.prodicional4.texto}</span>
+            <h3>{data.profissionais.profissional4.nome}</h3>
+            <p>{data.profissionais.profissional4.especialidade}</p>
+            <span className="textoProficional">{data.profissionais.profissional4.texto}</span>
           </div>
         </li>
       </ul>

@@ -115,13 +115,13 @@ export const data = {
       
     },
 
-    proficionais:{
+    profissionais:{
         texto1:'TIME DE ESPECIALISTAS',
         titulo:'Nossos profissionais',
         texto:'Equipe com uma estrutura enxuta, mas com profissionais especializados, que lidam pessoalmente nas causas.',
 
    
-        prodicional1:{
+        profissional1:{
             foto:adv1foto,
             nome:'Dr. Ana Teixeira Dante',
             especialidade:'Advogada e Consultora Empresarial',
@@ -133,7 +133,7 @@ export const data = {
             linkedin:'linkdin',
             instagran:'instagran'
         },
-        prodicional2:{
+        profissional2:{
             foto:adv2foto,
             nome:'Dr. Guilhermina Ramires',
             especialidade:'Advogada',
@@ -145,7 +145,7 @@ export const data = {
             linkedin:'linkdin',
             instagran:'instagran'
         },
-        prodicional3:{
+        profissional3:{
             foto: adv3foto,
             nome:'Dr. João Dark Santos',
             especialidade:'Advogado ',
@@ -157,7 +157,7 @@ export const data = {
             linkedin:'linkdin',
             instagran:'instagran'
         },
-        prodicional4:{
+        profissional4:{
             foto: adv4foto,
             nome:'Dr. Carlos Daqmasco',
             especialidade:'Advogado',
