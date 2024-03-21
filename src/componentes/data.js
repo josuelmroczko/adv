@@ -189,9 +189,10 @@ export const data = {
 
     fotter:{
     titulo1:'Advocacia Legal',
+    titulo3:'Áreas de atuação',
     texto:'Escritório de Advocacia que atua nas áreas Tributária, Empresarial, Trabalhista, Civil, Família e Sucessões, numa estrutura enxuta, com profissionais especializados, que lidam pessoalmente nas causas.',
         
-    titulo2:'VISITE-NOS',
+    titulo2:'Visite-nos',
     semana:'✔ Seg-Sex',
     endereco:'🗺️ Rua rua qalquer, 111 - Sao paulo/SP',
     linkEndereço:'https://maps.app.goo.gl/H1g2oA887sn6UWko7',
