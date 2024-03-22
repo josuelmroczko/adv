@@ -32,10 +32,10 @@ export default function Topo() {
         <>
             <StyledTopo className={topoVisible ? 'visible' : ''}>
                 <ul>
-                    <li><a href={data.topoMenu.linkInstagran} target="_blank"><img src={data.topoMenu.imagemInsta} alt="logoinstagran" /></a></li>
-                    <li><a href={data.topoMenu.linkLinkedin} target="_blank"><img src={data.topoMenu.imagemLinkedin} alt="logoLinkedin" /></a></li>
-                    <li><a href={data.topoMenu.linkYoutube} target="_blank"><img src={data.topoMenu.imagemYoutube} alt="logoYoutube" /></a></li>
-                    <li><a href={data.topoMenu.linkfacebook} target="_blank"><img src={data.topoMenu.imagemfacebook} alt="logoFacebook" /></a></li>
+                    <li><a href={data.topoMenu.linkInstagran} target="_blank" rel='noopener noreferrer'><img src={data.topoMenu.imagemInsta} alt="logoinstagran" /></a></li>
+                    <li><a href={data.topoMenu.linkLinkedin} target="_blank" rel='noopener noreferrer'><img src={data.topoMenu.imagemLinkedin} alt="logoLinkedin" /></a></li>
+                    <li><a href={data.topoMenu.linkYoutube} target="_blank" rel='noopener noreferrer'><img src={data.topoMenu.imagemYoutube} alt="logoYoutube" /></a></li>
+                    <li><a href={data.topoMenu.linkfacebook} target="_blank" rel='noopener noreferrer'><img src={data.topoMenu.imagemfacebook} alt="logoFacebook" /></a></li>
                 </ul>
                 <ul>
                     <li><a href={`mailto:${data.topoMenu.email}?subject=Assunto do Email&body=Corpo do Email`}>Email</a></li>
